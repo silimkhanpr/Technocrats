@@ -1,0 +1,34 @@
+Output:
+
+b'Program Initiated\n'
+b'LED Activated\n'
+b'LED Activated\n'
+b'LED Activated\n'
+
+-------------
+Arduino code:
+
+
+void setup() {
+
+  Serial.begin(9600);
+  Serial.print("Program Initiated\n");  
+}
+
+void loop(){
+   delay(700);
+   Serial.print("LED Activated\n");
+    
+}
+
+-------------
+Python:
+
+import serial, time
+ser = serial.Serial('COM3',9600)
+k =1
+ser.flushInput()
+ser.flushOutput()
+while k==1:
+  data_raw = ser.readline()
+  print(data_raw)
