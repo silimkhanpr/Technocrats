@@ -1,0 +1,36 @@
+
+#turns LED @ pin 13 on (a) & off (b) based on serial input.
+
+int pin =13;
+
+void setup() {
+  // initialize serial communication:
+  Serial.begin(9600);
+  // initialize the LED pins:
+    pinMode(pin, OUTPUT);
+    Serial.print("initialized");
+  }
+
+void loop(){
+
+  if (Serial.available() > 0) {
+    byte inByte = Serial.read();
+
+    if(inByte == 'a'){
+      digitalWrite(pin,HIGH);
+  delay(500);
+    }
+
+    if(inByte == 'b'){
+      digitalWrite(pin,LOW);
+  delay(500);
+    }
+ 
+  }
+ 
+  
+  //digitalWrite(pin,HIGH);
+  //delay(500);
+  //digitalWrite(pin,LOW);
+  //delay(500);
+}
