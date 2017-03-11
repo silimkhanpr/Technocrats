@@ -1,0 +1,20 @@
+# echoes serial input data back to source
+
+
+
+byte byteRead;
+
+void setup() {                
+
+  Serial.begin(9600);
+}
+
+void loop() {
+   
+  if (Serial.available()) {
+    
+    byteRead = Serial.read();
+    /*ECHO the value that was read, back to the serial port. */
+    Serial.write(byteRead);
+  }
+}
