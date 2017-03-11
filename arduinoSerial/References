@@ -22,4 +22,15 @@ strvar= serialobject.readline()
 strvar = strvar.decode()
 print(strvar) 
 
+#since:
+In Python 3.X, strings such as "abc" by default are Unicode strings. Strings must be encoded for transmission,
+or just start with a byte string b"abc" (note the b). Either of these will work:
+
+              serialport.write(b"\x23o0 \x23f")
+or:
+              serialport.write("\x23o0 \x23f".encode('ascii'))
+              
+Note that specifying an encoding is optional and defaults to utf8.
+
+Read more@ http://stackoverflow.com/questions/34958926/am-having-difficulties-with-unicode-strings-serialport-write-x23o0-x23f-not
 ------------
