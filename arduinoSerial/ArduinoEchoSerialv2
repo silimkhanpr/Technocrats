@@ -1,0 +1,34 @@
+#added pinMODE controls to serial. a=1,b=0 for Dout PIN13
+
+int pin =13;
+
+void setup() {
+  // initialize serial communication:
+  Serial.begin(115200);
+  // initialize the LED pins:
+    pinMode(pin, OUTPUT);
+    Serial.print("initialized");
+  }
+
+void loop(){
+
+  if (Serial.available() > 0) {
+    byte inByte = Serial.read();
+    Serial.write(inByte);
+
+    if(inByte == 'a'){
+      digitalWrite(pin,HIGH);
+      }
+
+    if(inByte == 'b'){
+      digitalWrite(pin,LOW);
+      }
+ 
+  }
+ 
+  
+  //digitalWrite(pin,HIGH);
+  //delay(500);
+  //digitalWrite(pin,LOW);
+  //delay(500);
+}
