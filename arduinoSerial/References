@@ -11,6 +11,9 @@ https://github.com/tino/pyFirmata/blob/master/README.rst
 PySerial+Arduino (loopback all ASCII, echo back)
 http://www.instructables.com/id/Interface-Python-and-Arduino-with-pySerial/?ALLSTEPS
 
+BaudRate
+http://arduino.stackexchange.com/questions/296/how-high-of-a-baud-rate-can-i-go-without-errors
+
 -------------
 noteToSelf:
 
