@@ -10,3 +10,16 @@ https://github.com/tino/pyFirmata/blob/master/README.rst
 
 PySerial+Arduino (loopback all ASCII, echo back)
 http://www.instructables.com/id/Interface-Python-and-Arduino-with-pySerial/?ALLSTEPS
+
+-------------
+noteToSelf:
+
+#To encode:
+serialobject.write(str(chr(integervariable)).encode()) # Convert the decimal number to ASCII then send it to the Arduino
+
+#To decode:
+strvar= serialobject.readline()
+strvar = strvar.decode()
+print(strvar) 
+
+------------
