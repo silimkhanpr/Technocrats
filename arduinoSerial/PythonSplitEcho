@@ -1,0 +1,54 @@
+pyFILE 1: sends ASCII to ard. prints out the reply.
+
+from time import sleep
+import serial
+ser = serial.Serial('COM3', 9600) # Establish the connection on a specific port
+counter = 32 # Below 32 everything in ASCII is gibberish
+while True:
+     counter +=1
+     ser.write(str(chr(counter)).encode()) # Convert the decimal number to ASCII then send it to the Arduino
+     carl = ser.readline()
+     carl = carl.decode()
+     print(carl) # Read the newest output from the Arduino
+     sleep(.3) # Delay for one tenth of a second
+     if counter == 255:
+          counter = 32
+      
+------------------------------------------------------
+pyFILE 2: bit modifified.
+
+from time import sleep
+import serial
+ser = serial.Serial('COM3', 9600) # Establish the connection on a specific port
+#counter = 32 # Below 32 everything in ASCII is gibberish
+k=1
+st=65
+sleep(2)
+while k<5:
+     print('justcheckina')
+     ser.write(str(chr(st)).encode()) # Convert the decimal number to ASCII then send it to the Arduino
+     carl = ser.readline()
+     #carl='fail'
+     carl = carl.decode()
+     print(carl) # Read the newest output from the Arduino
+     k +=1
+     st=st+1
+kalos=input('enter pls')
+
+-----------------
+Arduino.ino:
+
+void setup() {
+Serial.begin(9600); // set the baud rate
+Serial.println("Ready"); // print "Ready" once
+}
+void loop() {
+  char inByte = ' ';
+  if(Serial.available())
+  { // only send data back if data has been sent
+    char inByte = Serial.read(); // read the incoming data
+    Serial.println(inByte); // send the data back in a new line so that it is not all one long line
+    delay(500);
+  }
+delay(100); // delay for 1/10 of a second
+}
