@@ -14,6 +14,9 @@ http://www.instructables.com/id/Interface-Python-and-Arduino-with-pySerial/?ALLS
 BaudRate
 http://arduino.stackexchange.com/questions/296/how-high-of-a-baud-rate-can-i-go-without-errors
 
+AltSoft serial:
+https://www.pjrc.com/teensy/td_libs_AltSoftSerial.html
+
 -------------
 noteToSelf:
 
