@@ -1,0 +1,36 @@
+#send something; ard should echo program.
+
+import os
+os.getcwd()
+import time
+from time import sleep
+import serial
+ser = serial.Serial('COM3', 115200)
+sleep(2)
+ser.write('a'.encode())
+sleep(1)
+ser.write('b'.encode())
+sleep(1)
+ser.write('a'.encode())
+sleep(1)
+ser.write('b'.encode())
+print('ok')
+file = open('stu.csv')
+while 1:
+   line = file.readline()
+   print(line)
+   if not line:
+           #data_raw = ser.readline()
+           #print(data_raw)
+           break
+   ser.write(line.encode())
+   time.sleep(.1)
+ 
+kalos=input('enter pls')
+
+CSV:
+a,
+b,
+a,
+
+#A toggles LED on.
