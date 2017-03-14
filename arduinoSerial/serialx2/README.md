@@ -14,6 +14,8 @@ https://www.arduino.cc/en/Tutorial/SerialCallResponseASCII
 
 https://www.pjrc.com/teensy/td_libs_AltSoftSerial.html
 
+https://www.pjrc.com/teensy/td_libs_SoftwareSerial.html
+
 #### 3)
 http://lab.guilhermemartins.net/2008/12/24/serial-comunication-between-arduinos-with-wire-wireless/
 
@@ -24,6 +26,8 @@ http://www.sdrobots.com/tech-thurday-005-arduino-arduino-serial-communication/
 
 #### 5)
 http://blog.startingelectronics.com/how-to-use-arduino-serial-ports/
+
+http://www.fiz-ix.com/2012/12/arduino-uno-with-multiple-software-serial-devices/
 
 #### Arduino.cc Forums:
 
