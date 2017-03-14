@@ -22,7 +22,7 @@ http://blog.startingelectronics.com/how-to-use-arduino-serial-ports/
 
 ### TODO:
 
--[ ] Optocoupler
--[ ] LED to PhotoTransistor
--[ ] Frequency sweep
--[ ] Multispectra LED test
+[] Optocoupler
+[ ] LED to PhotoTransistor
+[ ] Frequency sweep
+[ ] Multispectra LED test
