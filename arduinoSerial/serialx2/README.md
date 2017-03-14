@@ -26,3 +26,5 @@ http://blog.startingelectronics.com/how-to-use-arduino-serial-ports/
 [ ] LED to PhotoTransistor
 [ ] Frequency sweep
 [ ] Multispectra LED test
+
+[x] Finish my changes
