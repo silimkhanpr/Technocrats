@@ -23,6 +23,9 @@ https://www.pjrc.com/teensy/td_libs_AltSoftSerial.html
 Pymata:
 https://learn.adafruit.com/circuit-playground-firmata/example-python-code
 
+C# Serial:
+http://playground.arduino.cc/Csharp/SerialCommsCSharp
+
 -------------
 noteToSelf:
 
