@@ -47,5 +47,6 @@ or:
               
 Note that specifying an encoding is optional and defaults to utf8.
 
-Read more@ http://stackoverflow.com/questions/34958926/am-having-difficulties-with-unicode-strings-serialport-write-x23o0-x23f-not
+Read more@ 
+http://stackoverflow.com/questions/34958926/am-having-difficulties-with-unicode-strings-serialport-write-x23o0-x23f-not
 ------------
