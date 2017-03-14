@@ -1,4 +1,4 @@
-#from ahttps://www.arduino.cc/en/Tutorial/SoftwareSerialExample
+#from https://www.arduino.cc/en/Tutorial/SoftwareSerialExample
 
 /*
   Software serial multple serial test
