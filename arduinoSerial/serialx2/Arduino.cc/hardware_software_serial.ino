@@ -1,10 +1,4 @@
-/* 
-  from: https://www.arduino.cc/en/Tutorial/SoftwareSerialExample
-  
-  In the example below, digital pins 10 and 11 on your Arduino are used as virtual RX and TX serial lines. 
-  The virtual RX pin is set up to listen for anything coming in on via the main serial line, 
-  and to then echo that data out the virtual TX line. Conversely, anything received on the virtual RX
-  is sent out over the hardware TX.
+#from ahttps://www.arduino.cc/en/Tutorial/SoftwareSerialExample
 
 /*
   Software serial multple serial test
