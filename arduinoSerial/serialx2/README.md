@@ -18,3 +18,11 @@ http://www.sdrobots.com/tech-thurday-005-arduino-arduino-serial-communication/
 
 #### 4)
 http://blog.startingelectronics.com/how-to-use-arduino-serial-ports/
+
+
+### TODO:
+
+-[ ] Optocoupler
+-[ ] LED to PhotoTransistor
+-[ ] Frequency sweep
+-[ ] Multispectra LED test
