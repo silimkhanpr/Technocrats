@@ -4,20 +4,32 @@
 
 #### 1) Arduino.cc:
 
+Library: https://www.arduino.cc/en/Reference/SoftwareSerial
+
 https://www.arduino.cc/en/Tutorial/SerialCallResponse
 
 https://www.arduino.cc/en/Tutorial/SerialCallResponseASCII
 
-#### 2)
+#### 2) AltSoftSerial:
+
+https://www.pjrc.com/teensy/td_libs_AltSoftSerial.html
+
+#### 3)
 http://lab.guilhermemartins.net/2008/12/24/serial-comunication-between-arduinos-with-wire-wireless/
 
 http://lab.guilhermemartins.net/2013/08/01/new-basic-arduino-serial-communication/
 
-#### 3) A2A
+#### 4) A2A
 http://www.sdrobots.com/tech-thurday-005-arduino-arduino-serial-communication/
 
-#### 4)
+#### 5)
 http://blog.startingelectronics.com/how-to-use-arduino-serial-ports/
+
+#### Arduino.cc Forums:
+
+http://forum.arduino.cc/index.php?topic=288234.0
+
+Updated: http://forum.arduino.cc/index.php?topic=396450
 
 
 ### TODO:
