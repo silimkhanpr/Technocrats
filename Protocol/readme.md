@@ -69,3 +69,21 @@ http://stackoverflow.com/questions/17081442/python-modbus-library
 http://electronics.stackexchange.com/questions/69504/good-rs232-based-protocols-for-embedded-to-computer-communication
 
 https://github.com/harmsm/PyCmdMessenger
+
+### W4:
+
+http://www.robotshop.com/letsmakerobots/a-guide-to-building-python-apps-for-controlling-your-robot
+
+http://arduino-er.blogspot.in/2013/03/communicate-with-arduino-with-python.html
+
+http://arduino-er.blogspot.in/2013/03/control-arduino-led-using-python-with.html
+
+https://pythonhosted.org/pyserial/
+
+https://pyserial.readthedocs.io/en/latest/
+
+https://www.tutorialspoint.com/python/python_strings.htm
+
+http://stackoverflow.com/questions/643694/utf-8-vs-unicode
+
+http://stackoverflow.com/questions/147741/character-reading-from-file-in-python
