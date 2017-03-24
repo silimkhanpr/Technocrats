@@ -49,3 +49,23 @@ http://bdurblg.blogspot.in/2011/06/python-split-any-file-binary-to.html
 https://gist.github.com/mattiasostmar/7883550
 
 http://www.devdungeon.com/content/working-binary-data-python
+
+### W3:
+
+http://stackoverflow.com/questions/815758/simple-serial-point-to-point-communication-protocol/817134#817134
+
+http://arduino.stackexchange.com/questions/4214/communication-protocol-best-practices-and-patterns
+
+https://github.com/jeroendoggen/Arduino-serial-messaging
+
+http://forum.arduino.cc/index.php?topic=396450.0
+
+https://pypi.python.org/pypi/simple-hdlc
+
+https://pypi.python.org/pypi/hdlcontroller
+
+http://stackoverflow.com/questions/17081442/python-modbus-library
+
+http://electronics.stackexchange.com/questions/69504/good-rs232-based-protocols-for-embedded-to-computer-communication
+
+https://github.com/harmsm/PyCmdMessenger
