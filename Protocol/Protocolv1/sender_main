@@ -1,0 +1,61 @@
+import os
+import math
+import sha256file as sh1
+
+#blocksize
+x = 128
+
+def send_file():
+    #Opening and reading file
+    obj = open("a.jpg", "rb")
+    data = obj.read()
+
+    #size of the file
+    fileSize = os.path.getsize("a.jpg")
+    print ("The size is:", fileSize)
+    
+    #number of packets
+    no = (math.ceil(fileSize/x))
+    print ("Number of packets are:", no)
+
+    #sha256 hash
+    sh1.sha_hash()
+
+def send_DATAH():
+    print("a")
+    return 'OK'
+
+def send_DATA(x,y,z):
+    for x in 
+    print("b")
+    return 'OK'
+
+
+
+hashs = send_file()
+n = os.stat("a.jpg").st_size
+obj = open("a.jpg", "rb")
+data = obj.read()
+i = 0
+j = 1
+while(i<n):
+    reply = send_DATAH()
+    if reply == 'OK':
+        if i == n-1:
+            response = send_DATA(j,data[i:],len(data[i:]))
+            if response == 'OK':
+                 print(data[i:])
+                 break
+            else:
+                continue
+
+        else:
+            response = send_DATA(j,data[i:i+x],len(data[i:i+x]))
+            if response == 'OK':
+                print (data[i:i+x])
+                i = i+x
+                j = j+1
+            else:
+                continue
+    else:
+        continue
